@@ -8,6 +8,13 @@
 
 #home {
     height: 100vh;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+#form {
+    padding-left: 30%;
+    padding-right: 30%;
 }
 
 main {
@@ -17,8 +24,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 30%;
-    padding-right: 30%;
     background-image: url('../img/gyurich-bg-02.png');
     background-attachment: fixed;
     /* background-position: center; */
@@ -28,6 +33,7 @@ main {
 
 main img {
     width: 23%;
+    height: auto;
 }
 
 main h5 {
@@ -86,9 +92,15 @@ a {
 
     main img {
         width: 50%;
+        height: auto;
     }
 
     main h5 {
         font-size: 30px;
+    }
+
+    #form {
+        padding-right: 5%;
+        padding-left: 5%;
     }
 }
