@@ -67,6 +67,10 @@ a {
     cursor: pointer;
 }
 
+iframe {
+    overflow: hidden;
+}
+
 .button:hover {
     background-color: var(--button-hover-color);
     color: var(--font-hover-color);
