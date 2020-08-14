@@ -6,8 +6,11 @@
     --border-color: rgba(237, 28, 36, 1);
 }
 
-main {
+#home {
     height: 100vh;
+}
+
+main {
     background-color: #fefefe;
     color: #000;
     display: flex;
@@ -17,6 +20,7 @@ main {
     padding-left: 30%;
     padding-right: 30%;
     background-image: url('../img/gyurich-bg-02.png');
+    background-attachment: fixed;
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
