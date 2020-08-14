@@ -22,20 +22,6 @@ main {
     background-size: cover;
 }
 
-hr {
-    border: none;
-    color: #000;
-    font-size: 28px;
-    text-align: center;
-    font-weight: 400;
-    height: auto;
-}
-hr::before {
-    text-indent: 0.6em;
-    letter-spacing: 0.6em;
-    content: "...";
-}
-
 main img {
     width: 23%;
 }
